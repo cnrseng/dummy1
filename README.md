@@ -1,5 +1,5 @@
 # Pi via MPI
 
-DEMO PI via MPI
-
+DEMO Pi calculation via MPI
+C++
 
