@@ -5,5 +5,5 @@ postsubmits:
     - ^main$
   spec:
     containers:
-      - image: <CATALOG/IMAGE:TAG>
-        command: <YOUR COMMANDS>
+      - image: quay.io/eduardoarango/pi:mpi
+        command: ["mpirun",/home/mpiuser/pi]
