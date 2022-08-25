@@ -1,5 +1,5 @@
-# template-project
+# Pi via MPI
 
-template-project
+DEMO PI via MPI
 
 

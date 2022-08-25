@@ -3,5 +3,5 @@ presubmits:
   always_run: true
   spec:
     containers:
-      - image: <CATALOG/IMAGE:TAG>
-      command: <YOUR COMMANDS>
+      - image: mpioperator/openmpi-builder
+        command: ["mpic++","pi.cc","-o","/pi"]
